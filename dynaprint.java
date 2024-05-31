@@ -11,10 +11,10 @@ public class dynaprint
 		Random rand=new Random();
 		for(int i=0;i<str.length();i++)
 		{
-			char ch=(char)(rand.nextInt((123-97)+1)+97);
+			char ch=(char)(rand.nextInt((122-97)+1)+97);
 			while(ch!=str.charAt(i))
 			{
-			ch=(char)(rand.nextInt((123-97)+1)+97);
+			ch=(char)(rand.nextInt((122-97)+1)+97);
 				try {
 			Thread.sleep(100);
 			} 
